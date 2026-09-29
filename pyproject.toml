@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "untranslated-check"
+dynamic = ["version"]
+description = "Find untranslated or mixed-language text on multilingual websites (en, fr, es, pt, de)."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Marvin Palencia" }]
+requires-python = ">=3.10"
+dependencies = []
+keywords = ["i18n", "translation", "hreflang", "language-detection", "multilingual", "crawler", "ci"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Internationalization",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.urls]
+Homepage = "https://github.com/dreadmoreeee/untranslated-check"
+
+[project.scripts]
+untranslated-check = "untranslated_check.cli:main"
+
+[tool.setuptools]
+packages = ["untranslated_check"]
+
+[tool.setuptools.package-data]
+untranslated_check = ["langid_model.json"]
+
+[tool.setuptools.dynamic]
+version = { attr = "untranslated_check.__version__" }
+
+[project.optional-dependencies]
+test = ["pytest"]

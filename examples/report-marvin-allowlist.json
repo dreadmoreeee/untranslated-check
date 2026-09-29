@@ -1,0 +1,314 @@
+{
+  "tool": "untranslated-check",
+  "version": "1.0.0",
+  "start_urls": [
+    "https://marvin.demarkstudio.ca/",
+    "https://marvin.demarkstudio.ca/es/"
+  ],
+  "languages": [
+    "en",
+    "es"
+  ],
+  "pages": [
+    {
+      "url": "https://marvin.demarkstudio.ca/",
+      "lang": "en",
+      "primary_lang": "en",
+      "lang_source": "html",
+      "blocks": 193,
+      "findings": 0,
+      "alternates": {
+        "en": "https://marvin.demarkstudio.ca/",
+        "es": "https://marvin.demarkstudio.ca/es/",
+        "x-default": "https://marvin.demarkstudio.ca/"
+      }
+    },
+    {
+      "url": "https://marvin.demarkstudio.ca/es/",
+      "lang": "es",
+      "primary_lang": "es",
+      "lang_source": "html",
+      "blocks": 193,
+      "findings": 9,
+      "alternates": {
+        "en": "https://marvin.demarkstudio.ca/",
+        "es": "https://marvin.demarkstudio.ca/es/",
+        "x-default": "https://marvin.demarkstudio.ca/"
+      }
+    },
+    {
+      "url": "https://marvin.demarkstudio.ca/work/demark-studio/",
+      "lang": "en",
+      "primary_lang": "en",
+      "lang_source": "html",
+      "blocks": 38,
+      "findings": 0,
+      "alternates": {}
+    },
+    {
+      "url": "https://marvin.demarkstudio.ca/work/triple-a-woodworks/",
+      "lang": "en",
+      "primary_lang": "en",
+      "lang_source": "html",
+      "blocks": 33,
+      "findings": 0,
+      "alternates": {}
+    },
+    {
+      "url": "https://marvin.demarkstudio.ca/work/stopping-form-spam/",
+      "lang": "en",
+      "primary_lang": "en",
+      "lang_source": "html",
+      "blocks": 33,
+      "findings": 0,
+      "alternates": {}
+    },
+    {
+      "url": "https://marvin.demarkstudio.ca/work/auditing-my-own-sites/",
+      "lang": "en",
+      "primary_lang": "en",
+      "lang_source": "html",
+      "blocks": 37,
+      "findings": 0,
+      "alternates": {}
+    }
+  ],
+  "skipped": [],
+  "requests": 7,
+  "stats": {
+    "blocks": 527,
+    "checked": 289,
+    "ignored_short": 233,
+    "ignored_code": 5,
+    "unsupported_language": 0,
+    "no_declared_language": 0
+  },
+  "counts": {
+    "low": 0,
+    "medium": 9,
+    "high": 5
+  },
+  "findings": [
+    {
+      "type": "identical-in-alternates",
+      "severity": "high",
+      "url": "https://marvin.demarkstudio.ca/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(3) > p",
+      "kind": "text",
+      "text": "62 fake quote requests in a few days, and the fix that stopped them without blocking real customers.",
+      "expected": "en",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/",
+        "https://marvin.demarkstudio.ca/es/"
+      ],
+      "other_url": "https://marvin.demarkstudio.ca/es/",
+      "other_selector": "section#cases > ul.case-list > li:nth-of-type(3) > p",
+      "other_lang": "es",
+      "untranslated_on": "https://marvin.demarkstudio.ca/es/"
+    },
+    {
+      "type": "identical-in-alternates",
+      "severity": "high",
+      "url": "https://marvin.demarkstudio.ca/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(2) > p",
+      "kind": "text",
+      "text": "A client website and store for a New Brunswick maker of real bird's eye wood vinyl.",
+      "expected": "en",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/",
+        "https://marvin.demarkstudio.ca/es/"
+      ],
+      "other_url": "https://marvin.demarkstudio.ca/es/",
+      "other_selector": "section#cases > ul.case-list > li:nth-of-type(2) > p",
+      "other_lang": "es",
+      "untranslated_on": "https://marvin.demarkstudio.ca/es/"
+    },
+    {
+      "type": "identical-in-alternates",
+      "severity": "high",
+      "url": "https://marvin.demarkstudio.ca/",
+      "selector": "section#about > dl.facts > div:nth-of-type(4) > dd",
+      "kind": "text",
+      "text": "Google: Foundations of Digital Marketing and E-commerce; Attract and Engage Customers with Digital Marketing (2023)",
+      "expected": "en",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/",
+        "https://marvin.demarkstudio.ca/es/"
+      ],
+      "other_url": "https://marvin.demarkstudio.ca/es/",
+      "other_selector": "section#about > dl.facts > div:nth-of-type(4) > dd",
+      "other_lang": "es",
+      "untranslated_on": "https://marvin.demarkstudio.ca/es/"
+    },
+    {
+      "type": "identical-in-alternates",
+      "severity": "high",
+      "url": "https://marvin.demarkstudio.ca/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(4) > p",
+      "kind": "text",
+      "text": "Real findings from testing my open-source tools on live sites, and the tool bugs that only production revealed.",
+      "expected": "en",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/",
+        "https://marvin.demarkstudio.ca/es/"
+      ],
+      "other_url": "https://marvin.demarkstudio.ca/es/",
+      "other_selector": "section#cases > ul.case-list > li:nth-of-type(4) > p",
+      "other_lang": "es",
+      "untranslated_on": "https://marvin.demarkstudio.ca/es/"
+    },
+    {
+      "type": "identical-in-alternates",
+      "severity": "high",
+      "url": "https://marvin.demarkstudio.ca/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(1) > p",
+      "kind": "text",
+      "text": "A platform for small businesses in Canada, designed, coded, deployed and supported by me.",
+      "expected": "en",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/",
+        "https://marvin.demarkstudio.ca/es/"
+      ],
+      "other_url": "https://marvin.demarkstudio.ca/es/",
+      "other_selector": "section#cases > ul.case-list > li:nth-of-type(1) > p",
+      "other_lang": "es",
+      "untranslated_on": "https://marvin.demarkstudio.ca/es/"
+    },
+    {
+      "type": "mixed-language",
+      "severity": "medium",
+      "url": "https://marvin.demarkstudio.ca/es/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(1)",
+      "kind": "text",
+      "text": "DeMark Studio: a small-business platform built and run by one developer (en inglés)",
+      "expected": "es",
+      "detected": "en",
+      "confidence": 0.9983,
+      "pages": [
+        "https://marvin.demarkstudio.ca/es/"
+      ]
+    },
+    {
+      "type": "mixed-language",
+      "severity": "medium",
+      "url": "https://marvin.demarkstudio.ca/es/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(1) > p",
+      "kind": "text",
+      "text": "A platform for small businesses in Canada, designed, coded, deployed and supported by me.",
+      "expected": "es",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/es/"
+      ]
+    },
+    {
+      "type": "mixed-language",
+      "severity": "medium",
+      "url": "https://marvin.demarkstudio.ca/es/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(2)",
+      "kind": "text",
+      "text": "Triple A Woodworks: a bilingual online store with Stripe checkout (en inglés)",
+      "expected": "es",
+      "detected": "en",
+      "confidence": 0.9948,
+      "pages": [
+        "https://marvin.demarkstudio.ca/es/"
+      ]
+    },
+    {
+      "type": "mixed-language",
+      "severity": "medium",
+      "url": "https://marvin.demarkstudio.ca/es/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(2) > p",
+      "kind": "text",
+      "text": "A client website and store for a New Brunswick maker of real bird's eye wood vinyl.",
+      "expected": "es",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/es/"
+      ]
+    },
+    {
+      "type": "mixed-language",
+      "severity": "medium",
+      "url": "https://marvin.demarkstudio.ca/es/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(3)",
+      "kind": "text",
+      "text": "Stopping a spam bot that beat the honeypot and rotated IPs (en inglés)",
+      "expected": "es",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/es/"
+      ]
+    },
+    {
+      "type": "mixed-language",
+      "severity": "medium",
+      "url": "https://marvin.demarkstudio.ca/es/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(3) > p",
+      "kind": "text",
+      "text": "62 fake quote requests in a few days, and the fix that stopped them without blocking real customers.",
+      "expected": "es",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/es/"
+      ]
+    },
+    {
+      "type": "mixed-language",
+      "severity": "medium",
+      "url": "https://marvin.demarkstudio.ca/es/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(4)",
+      "kind": "text",
+      "text": "Running my own tools on my own sites: what they caught (en inglés)",
+      "expected": "es",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/es/"
+      ]
+    },
+    {
+      "type": "mixed-language",
+      "severity": "medium",
+      "url": "https://marvin.demarkstudio.ca/es/",
+      "selector": "section#cases > ul.case-list > li:nth-of-type(4) > p",
+      "kind": "text",
+      "text": "Real findings from testing my open-source tools on live sites, and the tool bugs that only production revealed.",
+      "expected": "es",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/es/"
+      ]
+    },
+    {
+      "type": "mixed-language",
+      "severity": "medium",
+      "url": "https://marvin.demarkstudio.ca/es/",
+      "selector": "section#about > dl.facts > div:nth-of-type(4) > dd",
+      "kind": "text",
+      "text": "Google: Foundations of Digital Marketing and E-commerce; Attract and Engage Customers with Digital Marketing (2023)",
+      "expected": "es",
+      "detected": "en",
+      "confidence": 1.0,
+      "pages": [
+        "https://marvin.demarkstudio.ca/es/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# untranslated-check allowlist: one term per line, matched as whole words, any case.
+# These are added to the built-in list (DeMark Studio, Miramichi, New Brunswick, ...).
+# Use it for brand names, product names and technical terms that stay the same in every language.
+
+# Product and project names
+Triple A Woodworks
+canada-sales-tax
+hreflang-check
+website-health-audit
+email-dns-check
+domain-ssl-watch
+email-css-inliner
+page-change-watch
+
+# Technical terms written the same in English and Spanish
+stdlib
+Playwright
+Decimal
+RDAP
+TLS
+DNS
